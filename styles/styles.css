@@ -36,6 +36,10 @@
     .nav-item {
         margin-left: 20px;
     }
+    .brand {
+        width: 80px;
+        height: 80px
+    }
 
     header {
         background-image: url("../assets/imgs/header.png");
@@ -130,7 +134,7 @@
         font-family: 'Poppins', sans-serif;
         font-size: 38px;
         font-weight: 300;
-        color: white;
+        color: #D3D3D3
     }
     .story {
         margin-left: 2.91%;
