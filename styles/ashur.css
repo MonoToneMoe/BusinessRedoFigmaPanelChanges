@@ -364,7 +364,7 @@ font-weight: 100;
     grid-column: 1 / 4;
   }
   
-  /* Suppliers page start*/
+  /*------------------------ Suppliers page start*/
   .header-suppliers{
     background-image: url("../assets/Products/suplier.png");
         background-repeat: no-repeat;
@@ -373,19 +373,54 @@ font-weight: 100;
         height: 560px;
         width: 100%;
   }
+
   .header-title-suppliers{
     font-family: 'Poppins', sans-serif;
         color: rgb(0, 0, 0);
         font-size: 75px;
         font-weight: 700;
+       padding-left: 3%; 
+        padding-top: 130px;
   }
-.header-sub-suppliers{
-    font-family: 'Poppins', sans-serif;
-        color: #000000;
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 48px;
+  .header-sub-suppliers {
+      font-family: 'Poppins', sans-serif;
+      color: #000000;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 48px;
+      padding-left: 3%;
+      margin-top: 3%;
+  }
+@media (max-width: 768px){
+    .header-suppliers {
+            background-image: url("../assets/Products/suplier.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: fit-content;
+            width: 100%;
+        }
+    .header-title-suppliers {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding-left: 0;
+            padding-top: 30px;
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            font-weight: 700;
+        }
+                .header-sub-suppliers {
+                    font-family: 'Poppins', sans-serif;
+                    color: #000000;
+                    font-size: 22px;
+                    padding: 10px;
+                line-height: 38px;
+                   
+                    text-align: center;
+                }
 }
+
+
 
 .suppliers-container{
     display: flex;
@@ -438,37 +473,64 @@ margin-top: auto;
 .a-suppliers a{
     text-decoration: none;
 }
-  /* Suppliers page end*/
+@media (max-width: 600px){
+.suppliers-box {
+        display: flex;
+        flex-direction: column;
+        padding-top: 55px;
+        padding-bottom: 55px;
+        width: 100%;
+        height: auto;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+        .a-suppliers{
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        .button-suppliers{
+      width: 200px;
+    height: 50px;
+      font-size: 24px;
+    }
+
+}
 
 
- @media only screen and (max-width: 600px) and (max-height: 800px) {
+  /* Suppliers page end----------------------------------------*/
+
+
+
+ @media (max-width: 600px){
      .container-Ashur {
          grid-template-columns: 1fr;
          width: 100%;
      }
-     
+
          .sbox {
             grid-column: 1;
             justify-self: center;             
-            width: 89.58%;
+            width: 100%;
          }
     
     
          .mbox {
         justify-self: center;
-            width: 89.58%;
+            width: 100%;
              grid-column: 1;
          }
     
          .lbox {
             justify-self: center;
-                width: 89.58%;
+                width: 100%;
              grid-column: 1;
          }
     
          .pricing {
         justify-self: center;
-            width: 89.58%;
+            width: 100%;
              grid-column: 1;
          }
 
